@@ -2,7 +2,7 @@
 ##############################################################################
 #
 #    Mandate module for openERP
-#    Copyright (C) 2015-TODAY Anubía, soluciones en la nube,SL
+#    Copyright (C) 2018-TODAY Anubía, soluciones en la nube,SL
 #                             (http://www.anubia.es)
 #    @author: Juan Formoso Vasco <jfv@anubia.es>,
 #
@@ -22,8 +22,8 @@
 ##############################################################################
 
 {
-    'name': 'Analytic Account in Stock Picking',
-    'summary': 'Analytic account in stock pickings',
+    'name': 'Invoice Domain Fix',
+    'summary': 'Hides companies\' contacts from invoices partner dropdown',
     'description': """Description in HTML file.""",
     'category': 'Accounting',
     'version': '0.1',
@@ -35,22 +35,16 @@
     'website': 'http://www.anubia.es',
     'complexity': 'easy',
     'depends': [
-        'stock_account',
+        'account',
     ],
     'data': [
-        'views/account_move.xml',
-        'views/stock_picking.xml',
+        'views/account_invoice_view.xml',
     ],
     'demo': [],
     'test': [],
     'images': [
         'static/description/main_screenshot.png',
         'static/description/main_1.png',
-        'static/description/main_2.png',
-        'static/description/main_3.png',
-        'static/description/main_4.png',
-        'static/description/main_5.png',
-        'static/description/main_6.png',
     ],
     'installable': True,
     'auto_install': False,
