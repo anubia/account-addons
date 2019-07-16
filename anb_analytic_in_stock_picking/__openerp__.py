@@ -27,8 +27,8 @@
     'description': """Description in HTML file.""",
     'category': 'Accounting',
     'version': '0.1',
-    'author': 'Anubia Soluciones en la Nube, S.L.',
-    'maintainer': 'Anubia Soluciones en la nube, S.L.',
+    'author': 'Anubía Soluciones en la Nube, S.L.',
+    'maintainer': 'Anubía Soluciones en la Nube, S.L.',
     'contributors': [
         'Juan Formoso Vasco <jfv@anubia.es>',
     ],
